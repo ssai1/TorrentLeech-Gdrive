@@ -149,7 +149,7 @@ async def incoming_gdrive_message_f(client, message):
         )
     else:
         await i_m_sefg.edit_text(
-            "**FCUK**! wat have you entered. \nPlease read /help \n"
+            "something went wrong pls double check.\n"
             f"<b>API Error</b>: {cf_name}"
         )
 
@@ -199,6 +199,6 @@ async def incoming_youtube_dl_f(client, message):
             )
     else:
         await i_m_sefg.edit_text(
-            "**FCUK**! wat have you entered. \nPlease read /help \n"
+            "something went wrong pls double check.\n"
             f"<b>API Error</b>: {cf_name}"
         )
